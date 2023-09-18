@@ -1,0 +1,559 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar css code open */
+
+section.first-sect {
+    background-color: #F0F0F0;
+}
+
+button.navbar-toggler {
+    background: black;
+}
+h1.art-fly {
+    font-size: 40px;
+    text-align: center;
+    font-family: nexa;
+}
+.art-fly span {
+    color: #FF7623;
+}
+.main-login {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+}
+.main-login h3 {
+    font-size: 20px;
+    /* margin-bottom: 23px; */
+    margin-top: 15px;
+    color: #818181;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* navbar css code close */
+
+
+
+/* section 1 css code open */
+
+.sect1{
+    background-image: url(img/backcolor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1.decor {
+    font-size: 60px;
+    /* font-family: Nexa; */
+    font-weight: bold;
+}
+p.lorem {
+    font-size: 17px;
+    font-family: Proxima Nova;
+    color: black;
+    margin-top: 25px;
+}
+button.shop {
+    background-color: #FF7623;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: Proxima Nova;
+    margin-top: 15px;
+    cursor: pointer;
+}
+button.shop:hover{
+    background-color: #29235C;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: Proxima Nova;
+    cursor: pointer;
+}
+
+
+
+
+
+/* .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    background-color: #FF7623;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: Proxima Nova;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.btn:hover{
+    color: #000000;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #29235C;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn:hover::before{
+    transform: scaleX(1);
+} */
+
+/* section 1 css code close */
+
+
+
+
+/* section 2 css code open */
+
+section.sect2 {
+    margin-top: 100px;
+}
+
+.main-gallery h2 {
+    font-size: 25px;
+    font-family: Open sans;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15px;
+}
+.main-gallery p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6F6F6E;
+    font-family: open sans-serif;
+}
+
+/* section 2 css code close */
+
+
+/* section 3 css code open */
+
+section.sect3 {
+    margin-top: 100px;
+}
+.featured-art h1 {
+    font-size: 60px;
+    color: #29235C;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.featured-art p {
+    color: #6F6F6E;
+    font-size: 20px;
+    font-family: Open sans-serif;
+}
+
+
+/* section 3 css code close */
+
+
+/* section 4 css code open */
+
+img.innerlion {
+    width: 100%;
+}
+img.innercloud {
+    width: 100%;
+}
+img.innerpaint {
+    width: 100%;
+}
+img.innerfloArt {
+    width: 100%;
+}
+section.sect4 {
+    margin-top: 40px;
+}
+.main-lionArt h2 {
+    font-size: 24px;
+    font-family: ProximaNova;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-lionArt p {
+    font-size: 24px;
+    font-family: ProximaNova;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 50px;
+    margin-top: -25px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* section 4 css code close */
+
+
+
+/* section 4 css code close */
+
+.sect5{
+    background-image: url(img/alena-aenami.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    margin-top: 100px;
+}
+.opacity-color {
+    background-color: #ff7623c7;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+h1.shop-original{
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+/* section 5 css code close */
+
+
+/* section 7 css code open */
+h2.becaii {
+    font-size: 26px;
+    text-align: center;
+    font-family: nexa;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 40px;
+}
+section.sect7 {
+    margin-top: 50px;
+}
+
+
+/* section 7 css code close */
+
+
+/* section 8 css code open */
+img.girl-Art {
+    width: 100%;
+}
+section.sect8 {
+    margin-top: 100px;
+}
+
+
+.main-deals h1{
+    font-size: 60px;
+    color: #29235C;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.main-deals p {
+    font-family: Open sans-serif;
+    font-size: 19px;
+    color: #6F6F6E;
+    margin-top: 25px;
+}
+h2#demo {
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 50px;
+}
+.timmer{
+    display: flex;
+    gap: 65px;
+}
+.timmer h2 {
+    font-size: 25px;
+    color: #29235C;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+button.shop1 {
+    background-color: #29235C;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Proxima Nova;
+    margin-top: 50px;
+}
+button.shop1:hover{
+    background-color: #FF7623;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Proxima Nova; 
+}
+
+
+
+/* section 8 css code close */
+
+
+
+/* section 9 css code open */
+
+.t-shirt{
+    width: 100%;
+}
+section.sec9 {
+    margin-top: 70px;
+}
+h3.cloth {
+    text-align: center;
+    font-size: 26px;
+    font-family: nexa;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+/* section 9 css code close */
+
+
+
+
+/* section 10 Testimonial css code open */
+
+section.sect10 {
+    margin-top: 150px;
+    text-align: center;
+}
+h1.testimonial-head {
+    font-size: 60px;
+    color: #29235C;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.lorem1 {
+    font-size: 26px;
+    color: #6F6F6E;
+    font-family: sans-serif;
+}
+p.lorem2 {
+    font-size: 22px;
+    color: #6F6F6E;
+    font-family: sans-serif;
+}
+h5.ceo-company {
+    font-size: 22px;
+    color: #000000;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 55px;
+}
+h3.john {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+
+
+/* section 10 Testimonial css code close */
+
+.foot {
+    background-color: #29235C;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+.main-artpress h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: nexa;
+}
+.main-artpress p {
+    color: #ffffff;
+}
+.main-artpress p {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 23px;
+}
+p.design1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 70px;
+}
+h2.About {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h2.Refund {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 44px;
+}
+h2.termss{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+h2.Policyy{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+h3.Quick-link {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 38px;
+}
+ul.quick-link {
+    list-style: none;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+ul.quick-link li{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+input.input-submit {
+    padding: 8px 19px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+input.submit-btn {
+    padding: 9px 19px;
+    background-color: #ffffff;
+    color: #29235C;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: -5px;
+    border: none;
+}
+.main-submitbtn {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.main-submitbtn img {
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 87px;
+    width: 50%;
+}
+.main-submitbtn p {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 100px;
+}
+
+
+
+/* slider code css open */
+
+.main-printmaking {
+    /* border: 1px solid; */
+    /* background: #F7F7F7; */
+    align-items: center;
+    text-align: center;
+    padding: 35px 0px;
+    margin-top: -27px;
+}
+h2.paintings {
+    font-family: nexa;
+    font-size: 26px;
+}
+.container.sect-carosel {
+    margin-top: 50px;
+}
+
+/* slider code css close */

@@ -1,0 +1,304 @@
+@media (min-width: 320px) and (max-width: 767px){ 
+
+    h1.decor {
+        font-size: 40px;
+    }
+    p.lorem {
+        font-size: 10px;
+        margin-top: 0px;
+    }    
+    button.shop {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+    .sect1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .opacity-color {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h1.shop-original {
+        font-size: 22px;
+    }
+    h2#demo {
+        font-size: 55px;
+        margin-top: 20px;
+    }
+    .timmer{
+        gap: 38px;
+    }
+    .timmer h2{
+        margin-left: 10px;
+    }
+    button.shop1 {
+        margin-top: 30px;
+        margin-left: 87px;
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+    .featured-art h1 {
+        font-size: 40px;
+    }
+    .featured-art p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    .main-gallery p {
+        font-size: 16px;
+    }
+    .main-gallery h2 {
+        font-size: 22px;
+    }
+    .main-deals h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .main-deals p {
+        font-size: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .rate {
+        float: left;
+        height: 46px;
+        padding: 0 70px;
+        margin-top: -13px;
+    }
+    .main-gallery img{
+        width: 30%;
+    }
+    .main-becai img{
+       width: 100%;
+    }
+
+    h2.becaii {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    section.sect10 {
+        margin-top: 70px;
+        text-align: center;
+    }
+    h1.testimonial-head {
+        font-size: 40px;
+    }
+    .lorem1 {
+        font-size: 18px;
+    }
+    p.lorem2 {
+        font-size: 16px;
+    }
+    h5.ceo-company {
+        font-size: 18px;
+    }
+    h3.john {
+        font-size: 40px;
+    }
+
+    .main-artpress h1 {
+        font-size: 40px;
+    }
+    .main-artpress p {
+        font-size: 13px;
+    }
+    h2.About {
+        font-size: 18px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    h2.Refund {
+        text-align: left;
+        margin-top: 25px;
+    }
+    h2.termss {
+        text-align: left;
+    }
+    h2.Policyy {
+        text-align: left;
+    }
+    h3.Quick-link {
+        text-align: left;
+        margin-left: 0px;
+    }
+    ul.quick-link {
+        margin-left: 0px;
+    }
+    .main-submitbtn {
+        margin-left: 0px;
+    }
+    input.input-submit {
+        padding: 8px 6px;
+    }
+    input.submit-btn {
+        padding: 9px 12px;
+    }
+    .main-submitbtn img {
+        margin-left: 0px;
+    }
+    .main-submitbtn p {
+        text-align: left;
+        margin-top: 50px;
+    }
+    nav.navbar.navbar-dark {
+        padding: 10px 120px;
+    }
+    .main-login {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+
+
+    .rate {
+        padding: 0 0px;
+        margin-top: -15px;
+    }
+    h1.decor {
+        font-size: 50px;
+    }
+    p.lorem {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    .sect1 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .main-gallery img {
+        width: 55%;
+    }
+    .main-gallery h2 {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+    .main-gallery p {
+        font-size: 16px;
+    }
+    .featured-art h1 {
+        font-size: 50px;
+    }
+
+    .opacity-color {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h1.shop-original {
+        font-size: 50px;
+    }
+    .main-deals h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+    .main-deals p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h2#demo{
+        font-size: 50px;
+        margin-top: 0px;
+        margin-left: 45px;
+    }
+    .timmer{
+        gap: 30px;
+        margin-left: 45px;
+
+    }
+    .timmer h2{
+        margin-left: 6px;
+    }
+    button.shop1{
+        margin-left: 95px;
+        margin-top: 20px;
+    }
+
+    .main-becai img{
+         width: 100%;
+    }
+    h2.becaii {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    h3.cloth {
+        text-align: center;
+        font-size: 22px;
+        font-family: nexa;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    h1.testimonial-head {
+        font-size: 50px;
+    }
+    p.lorem2 {
+        font-size: 18px;
+    }
+    .lorem1 {
+        font-size: 22px;
+    }
+    .main-artpress h1 {
+        font-size: 35px;
+    }
+    .main-artpress p {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    h2.About {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    h2.Refund {
+        font-size: 14px;
+    }
+    h2.termss {
+        font-size: 14px;
+    }
+    h2.Policyy {
+        font-size: 14px;
+    }
+    h3.Quick-link {
+        font-size: 16px;
+        margin-top: 9px;
+        margin-left: 0px;
+    }
+    ul.quick-link {
+        margin-left: -16px;
+        font-size: 12px;
+    }
+    .main-submitbtn {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    input.input-submit {
+        padding: 6px 9px;
+        font-size: 14px;
+    }
+    input.submit-btn {
+        padding: 5px 9px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .main-submitbtn img {
+        margin-left: 35px;
+    }
+    .main-login {
+        display: flex;
+        gap: 22px;
+    }
+    .main-login h3 {
+        font-size: 18px;
+        margin-top: 17px;
+    }
+
+}
